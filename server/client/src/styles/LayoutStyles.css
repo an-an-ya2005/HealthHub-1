@@ -33,9 +33,9 @@
 /* Menu item styles */
 .menu-item {
   position: relative;
-  color: #ffff;
+  color: #ffff;  
 }
-
+/* menu */
 .menu-item a {
   color: #ecf0f1; /* Light color for menu items */
   text-decoration: none;
