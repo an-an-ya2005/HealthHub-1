@@ -33,7 +33,7 @@ export default function ProfilePage() {
   }, []);
 
   return (
-    // <Layout>
+    <Layout>
       <div className="profile-page">
         {user ? (
           <div className="user-card">
@@ -50,6 +50,6 @@ export default function ProfilePage() {
           <p>Loading profile...</p>
         )}
       </div>
-    // </Layout>
+     </Layout>
   );
 }
